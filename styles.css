@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient( 90deg, pink, lightgoldenrodyellow);
+    color: rgb(129, 122, 122);
+    margin: 0;
+  }
+
+
+  .cabecera {
+    background-image: linear-gradient( 90deg, #8ACDD7, #FFC0D9);
+    color: rgb(129, 122, 122);
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    margin: 1em auto auto auto; /* Centrar el header */
+    border-radius: 2em;
+  }
+  h1 {
+    margin: 0;
+    
+  }
+
+  .navegar {
+    text-align: center;
+    background-image: linear-gradient( 90deg, #8ACDD7, #FFC0D9)
+    
+  }
+
+  
+  .navegar ul {
+    list-style: none;
+    margin-top: 1em;
+    padding: 0;
+  }
+
+  .navegar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .navegar a {
+    text-decoration: none;
+    color: rgb(129, 122, 122);
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+h2{
+text-align: center;
+}
+
+
+    .container{
+        width: 85vw;
+        margin: auto;
+        border-radius: 2em;
+        background-color: lightgoldenrodyellow;
+        /*background-image: linear-gradient( 90deg, lightgoldenrodyellow, #8ACDD7);*/
+        display: flex;
+        padding: 1.5em;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .card{
+        border: 2px solid black;
+        width: 300px;
+        border-radius: 2em;
+        padding: 1.5em;
+        transition: 1s;
+        text-align: center;
+    }
+
+    .card:hover{
+        background-color: lightgoldenrodyellow;
+   }
+
+   .subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+   }
+
+   button{
+    background-image: linear-gradient( 90deg, #FFC0D9, #8ACDD7);
+    width: 8em;
+    height: 3em;
+    border-radius: 1.5em;
+   }
+   button a {
+    
+    color:  rgb(129, 122, 122);;
+   }
+
+   #boton-enviar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+   }
+
+/* Lo que sigue es el código del formulario de suscripción*/
+
+    #subs{
+        text-align: center;
+        margin-top: 2em;
+    }
+
+ .sus{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 2em;
+   justify-content: center;
+   align-items: center;
+   background-color: lightgoldenrodyellow;
+   
+ }
+
+ .item{
+    margin: auto;
+    padding: 1.2em;
+    border: 1.5em color white
+ 
+    
+ }
+
+ .centrar-item{
+    text-align: center;
+    width: 300px;
+    height: 2em;
+    border-color: white;
+    
+ }
+
+  
+
+ 
+   
+    
